@@ -168,7 +168,7 @@
   </library_lights>
   <library_images>
     <image id="texture_png" name="texture_png">
-      <init_from>/C:/Users/Olof/Source/Repos/snowman/assets/snowman/texture.png</init_from>
+      <init_from>texture.png</init_from>
     </image>
   </library_images>
   <library_effects>
