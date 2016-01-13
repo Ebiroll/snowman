@@ -1,0 +1,27 @@
+{
+    "name": "snowman",
+    "description": "Snowman test project",
+    "version": "0.1",
+    "main": "server.js",
+    "author": {
+        "name": "Olof Astrand",
+        "email": "olof.astrand@gmail.com"
+    },
+    "keywords": [],
+    "licenses": {
+        "type": "none"
+    },
+    "dependencies": {
+      "body-parser": "*",
+      "morgan" : "*",
+      "mongodb":"*",
+      "express": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ebiroll/snowman.git"
+    },
+    "bugs": {
+        "url": "http://github.com/Ebiroll/snowman/issues"
+    }
+}
