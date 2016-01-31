@@ -13,22 +13,24 @@
       <a-sky color="#ECECEC"></a-sky>
       <a-plane rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
       
-      <!-- tree model -->  
-      <a-model scale="2 2 2" position="3 0 3.5" src="https://aframe.io/aframe/examples/_models/tree1/tree1.dae"></a-model>
+      <!-- tree model         <a-model scale="2 2 2" position="3 0 3.5" src="https://aframe.io/aframe/examples/_models/tree1/tree1.dae"></a-model> -->  
+
+      <a-model rotation="0 -90 0"  scale="2 2 2" position="3 0 3.5" src="/assets/snowman/snowman.dae"></a-model>
       
       <!-- red sphere -->
       <a-sphere position="0 1.25 -1" radius="3" color="red" ></a-sphere>
       
-      <!-- rotating cube -->
-      <a-cube position="-4 3 1" rotation="0 360 0" width="1" height="1" depth="1" src="assets/layeredstucco.jpg">
+      <!-- rotating cube
+      <a-cube position="-4 3 1" rotation="0 360 0" width="1" height="1" depth="1" src="assets/layeredstucco.jpg"> 
         <a-animation attribute="rotation" from="0 0 0" to="0 90 0" repeat="indefinite" easing="linear"></a-animation>
-      </a-cube>
+      </a-cube>  -->
       
-      <!-- wine cube -->
+      <!-- wine cube
       <a-cube position="-2 1 3.5" rotation="0 30 0" width="2" depth="2" height="2" opacity="1" src="assets/wine.jpg"></a-cube>
-    
+     -->
+
       <!-- text-component -->
-      <a-entity text="text: Hello, World!" position="-3 3 4" material="color: blue"></a-entity>    
+      <a-entity text="text: Hello, Snowman!" position="-3 3 4" material="color: blue"></a-entity>    
     </a-scene>
   </body>
 </html>

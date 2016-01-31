@@ -24,6 +24,7 @@ app.use(morgan("dev"));
 
 
 app.use('/',express.static(__dirname + '/public'));
+app.use('/assets',express.static(__dirname + '/assets'));
 //app.use('/dist',express.static(__dirname + '../../../dist'));
 //app.use('/libs',express.static(__dirname + '../../../libs'));
 
