@@ -1,0 +1,439 @@
+{
+    "accessors": {
+        "accessor_buffer_IBM_Ghost.001_skin_0": {
+            "bufferView": "bufferView_buffer_IBM_Ghost.001_skin_0",
+            "byteOffset": 0,
+            "byteStride": 64,
+            "componentType": 5126,
+            "count": 3,
+            "max": [
+                1.0,
+                3.552713678800501e-15,
+                1.9314121857405553e-07,
+                0,
+                1.8618396779856994e-07,
+                0.26598021388053894,
+                0,
+                0,
+                0,
+                1.0,
+                0.26598021388053894,
+                0,
+                1.2071916444256203e-07,
+                2.544461965560913,
+                0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                -0.0,
+                1.1920928955078125e-07,
+                -0.0,
+                1.1920928955078125e-07,
+                0.0,
+                -1.0,
+                0.0,
+                -5.137174241554021e-08,
+                0.9639784693717957,
+                0.0,
+                -0.0,
+                -0.0,
+                -2.265266180038452,
+                -0.625030517578125,
+                1.0
+            ],
+            "type": "MAT4"
+        },
+        "accessor_buffer_Mesh_0": {
+            "bufferView": "bufferView_buffer_Mesh_0",
+            "byteOffset": 0,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10205,
+            "max": [
+                1.04365873336792,
+                3.13603138923645,
+                1.0329358577728271
+            ],
+            "min": [
+                -1.5877583026885986,
+                -4.5851240158081055,
+                -1.02493417263031
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Mesh_1": {
+            "bufferView": "bufferView_buffer_Mesh_0",
+            "byteOffset": 12,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10205,
+            "max": [
+                0.99993896484375,
+                0.9893490672111511,
+                0.999969482421875
+            ],
+            "min": [
+                -0.999969482421875,
+                -0.9965513944625854,
+                -0.999969482421875
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Mesh_2": {
+            "bufferView": "bufferView_buffer_Mesh_0",
+            "byteOffset": 24,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10205,
+            "max": [
+                0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                1.0
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Mesh_3": {
+            "bufferView": "bufferView_buffer_Mesh_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 60000,
+            "max": [
+                10204
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Mesh_skin_0": {
+            "bufferView": "bufferView_buffer_Mesh_skin_0",
+            "byteOffset": 0,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10205,
+            "max": [
+                2,
+                2,
+                2,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "type": "VEC4"
+        },
+        "accessor_buffer_Mesh_skin_1": {
+            "bufferView": "bufferView_buffer_Mesh_skin_0",
+            "byteOffset": 16,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10205,
+            "max": [
+                0.9991020560264587,
+                0.49902185797691345,
+                0.0580328144133091,
+                0
+            ],
+            "min": [
+                0.4933014214038849,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "VEC4"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_IBM_Ghost.001_skin_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 192,
+            "byteOffset": 773120
+        },
+        "bufferView_buffer_Mesh_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 326560,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Mesh_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 120000,
+            "byteOffset": 326560,
+            "target": 34963
+        },
+        "bufferView_buffer_Mesh_skin_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 326560,
+            "byteOffset": 446560,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 773312,
+            "type": "arraybuffer",
+            "uri": "buffer_combined.bin"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "materials": {
+        "material_initialShadingGroup": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.64000004529953,
+                            0.64000004529953,
+                            0.64000004529953,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "initialShadingGroup"
+        }
+    },
+    "meshes": {
+        "mesh_Mesh": {
+            "name": "Mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINT": "accessor_buffer_Mesh_skin_0",
+                        "NORMAL": "accessor_buffer_Mesh_1",
+                        "POSITION": "accessor_buffer_Mesh_0",
+                        "TEXCOORD_0": "accessor_buffer_Mesh_2",
+                        "WEIGHT": "accessor_buffer_Mesh_skin_1"
+                    },
+                    "indices": "accessor_buffer_Mesh_3",
+                    "material": "material_initialShadingGroup",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Ghost": {
+            "children": [
+                "node_Ghost.001",
+                "node_Ghost_Legs"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Ghost"
+        },
+        "node_Ghost.001": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.6292068494294654e-07,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -1.6292068494294654e-07,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Mesh"
+            ],
+            "name": "Ghost.001",
+            "skeletons": [
+                "node_Ghost_Legs"
+            ],
+            "skin": "skin_Mesh"
+        },
+        "node_Ghost_Body": {
+            "children": [
+                "node_Ghost_Head"
+            ],
+            "jointName": "node_Ghost_Body",
+            "matrix": [
+                1.0,
+                0.0,
+                -4.937810160754452e-08,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                4.937810160754452e-08,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                2.583865165710449,
+                0.0,
+                1.0
+            ],
+            "name": "Body"
+        },
+        "node_Ghost_Head": {
+            "children": [],
+            "jointName": "node_Ghost_Head",
+            "matrix": [
+                1.0,
+                -5.137174241554021e-08,
+                -1.7596576640244166e-08,
+                0.0,
+                4.484091320478001e-08,
+                0.9639785289764404,
+                -0.26598021388053894,
+                0.0,
+                3.0626594593741174e-08,
+                0.26598021388053894,
+                0.9639784693717957,
+                0.0,
+                0.0,
+                2.3105103969573975,
+                0.0,
+                1.0
+            ],
+            "name": "Head"
+        },
+        "node_Ghost_Legs": {
+            "children": [
+                "node_Ghost_Body"
+            ],
+            "jointName": "node_Ghost_Legs",
+            "matrix": [
+                1.0,
+                1.1920928955078125e-07,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.1920928955078125e-07,
+                -1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.544461965560913,
+                1.0
+            ],
+            "name": "Legs"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": "camera_Camera",
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_Ghost"
+            ]
+        }
+    },
+    "skins": {
+        "skin_Mesh": {
+            "bindShapeMatrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.6292068494294654e-07,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -1.6292068494294654e-07,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "inverseBindMatrices": "accessor_buffer_IBM_Ghost.001_skin_0",
+            "jointNames": [
+                "node_Ghost_Legs",
+                "node_Ghost_Body",
+                "node_Ghost_Head"
+            ],
+            "name": "Ghost.001"
+        }
+    }
+}

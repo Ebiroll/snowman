@@ -1,0 +1,14 @@
+#systemctl start bluetooth.service
+#bluetoothctl
+ scan on
+ agent on
+ power on
+
+ pair 00:1A:E9:3D:F5:67
+ connect 00:1A:E9:3D:F5:67
+
+
+
+
+Or
+# wminput -w
