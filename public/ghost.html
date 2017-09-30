@@ -3,18 +3,31 @@
   <head>
     <title>Hello, WebVR! - A-Frame</title>
     <meta name="description" content="Hello, WebVR! - A-Frame">
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
        <a-assets>
            <a-asset-item id="ghost" src="ghost.gltf"></a-asset-item>
        </a-assets>
-       
-       <a-entity gltf-model="#ghost" position="0 0 0"
-		 scale="0.5 0.5 0.5">
-              <a-animation easing="linear" attribute="rotation" dur="10000" to="0 0 360" repeat="indefinite"></a-animation>
-       </a-entity>
+
+        <!-- Using the asset management system. 
+       <a-gltf-model  src="#ghost"></a-gltf-model>
+       -->
+
+
+       <a-gltf-model  src="#ghost" position="0 0 -10" scale="0.5 0.5 0.5">
+       </a-gltf-model>
+
+       <a-gltf-model  src="#ghost" position="0 0 -20" scale="0.5 0.5 0.5">
+      </a-gltf-model>
+      
+      <a-gltf-model  src="#ghost" position="0 0 -30" scale="0.5 0.5 0.5">
+      </a-gltf-model>
+
+       <a-gltf-model  src="#ghost" position="0 0 0" scale="0.5 0.5 0.5">
+              <a-animation easing="linear" attribute="rotation" dur="10000" to="0 360 0" repeat="indefinite"></a-animation>
+       </a-gltf-model>
 
       <a-plane position="0 0 -4"
 	       rotation="0 0 0"
